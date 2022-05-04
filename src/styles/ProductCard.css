@@ -1,0 +1,70 @@
+.card {
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 250px;
+	height: 350px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	display: inline-block;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.cardProp {
+	position: absolute;
+	bottom: 0;
+	margin: 10px;
+	height: 155px;
+	width: 230px;
+}
+
+.imageContainer {
+	margin: 10px;
+	height: 155px;
+	width: 230px;
+	position: relative;
+}
+
+.cardTitle {
+	font-size: 2vh;
+	display: inline;
+	float: none;
+}
+
+.cardPrice {
+	color: grey;
+	font-size: 22px;
+}
+
+.cardButton {
+	position: absolute;
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 210px;
+	font-size: 18px;
+	border-radius: 25px;
+	bottom: 10px;
+	left: 20px;
+}
+
+.cardButton:hover {
+	opacity: 0.7;
+}
+
+.cardImage {
+	max-height: 100%;
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}

@@ -1,0 +1,11 @@
+export const GET_DATA_REQUESTED = "GET_DATA_REQUESTED";
+export const GET_DATA_DONE = "GET_DATA_DONE";
+export const GET_DATA_FAILED = "GET_DATA_FAILED";
+
+export const ADD_ITEM = "ADD_ITEM";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const CLEAR_CART = "CLEAR_CART";
+
+export const FILTER_BY_PRICE = "FILTER_BY_PRICE";
+export const FILTER_ALPHABET = "FILTER_ALPHABET";
+export const FILTER_BY_DEFAULT = "FILTER_BY_DEFAULT";
